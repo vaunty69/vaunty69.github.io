@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9eaea;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    max-width: 1000px;
+}
+
+.logo img.logo-image {
+    max-width: 300px;
+    margin-bottom: 40px;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo h1 {
+    color: red;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.logo p {
+    font-size: 20px;
+    color: red;
+}
+
+.login-box {
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1)
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-box button {
+    background-color: #d62828;
+    color: #fff;
+    padding: 12px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.login-box button:hover {
+    background-color: #a91d1d;
+}
+
+.login-box .create-account {
+    background-color: #7c1a1a;
+    margin-top: 10px;
+}
+
+.login-box a {
+    color: #d62828;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.login-box a:hover {
+    text-decoration: underline;
+}
+
+.login-box hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #dddfe2;
+}
+
+.login-box input {
+    padding: 12px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    border: 1px solid #dddfe2;
+    border-radius: 4px;
+}
