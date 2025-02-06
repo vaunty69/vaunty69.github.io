@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center;
+}
+
+.resume {
+    width: 70%;
+    margin: 30px auto;
+    background: lightyellow;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.header h1 {
+    font-size: 28px; /* Increased from 24px */
+    font-weight: bold;
+    margin: 0;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 16px; /* Increased from 14px */
+}
+
+.profile-pic {
+    width: 180px; /* Increased from 120px */
+    height: 180px; /* Increased from 120px */
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    object-fit: cover;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    height: 1px;
+    background: #ddd;
+}
+
+h2 {
+    font-size: 20px; /* Increased from 18px */
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 2px solid #333;
+    display: inline-block;
+    padding-bottom: 2px;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 16px; /* Increased from 14px */
+    line-height: 1.6;
+}
+
+.skills-list {
+    list-style-type: square;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.skills-list li {
+    margin-bottom: 5px;
+    font-size: 16px; /* Increased from 14px */
+    line-height: 1.5;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #444;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px; /* Increased from 14px */
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode h1,
+.dark-mode h2 {
+    color: #fff;
+}
+
+.dark-mode hr {
+    background-color: #555;
+}
